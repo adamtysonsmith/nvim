@@ -48,6 +48,10 @@ local plugins = {
       })
     end,
   },
+  {
+    "MaxMEllon/vim-jsx-pretty",
+    ft = {"javascript", "javascriptreact", "typescriptreact", "typescript"}
+  }
 }
 
 return plugins
